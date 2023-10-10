@@ -14,8 +14,8 @@ github.com/Microsoft/go-winio v0.4.14/go.mod h1:qXqCSQ3Xa7+6tgxaGTIe4Kpcdsi+P8jB
 github.com/Microsoft/go-winio v0.4.16/go.mod h1:XB6nPKklQyQ7GC9LdcBEcBl8PF76WugXOPRXwdLnMv0=
 github.com/Microsoft/go-winio v0.6.0 h1:slsWYD/zyx7lCXoZVlvQrj0hPTM1HI4+v1sIda2yDvg=
 github.com/Microsoft/go-winio v0.6.0/go.mod h1:cTAf44im0RAYeL23bpB+fzCyDH2MJiz2BO69KH/soAE=
-github.com/Mirantis/mcc v0.0.0-20221202073622-0780228511dd h1:QBVLiM89PXLVFpO5iwYjSAWDM1KqsRLiwAKf5j3pEaY=
-github.com/Mirantis/mcc v0.0.0-20221202073622-0780228511dd/go.mod h1:PODuCOc6KSPu7LdnZcpJkR8W1H8M7IupRMOb7A+2YBQ=
+github.com/Mirantis/mcc v1.5.3 h1:TIkgzQCJHvdORREUkZDUs6s3Ps9aFmuZvu2JeBdaWZ8=
+github.com/Mirantis/mcc v1.5.3/go.mod h1:PODuCOc6KSPu7LdnZcpJkR8W1H8M7IupRMOb7A+2YBQ=
 github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7 h1:YoJbenK9C67SkzkDfmQuVln04ygHj3vjZfd9FL+GmQQ=
 github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7/go.mod h1:z4/9nQmJSSwwds7ejkxaJwO37dru3geImFUdJlaLzQo=
 github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d h1:licZJFw2RwpHMqeKTCYkitsPqHNxTmd4SNR5r94FGM8=

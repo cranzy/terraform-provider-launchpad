@@ -7,12 +7,12 @@ require (
 	github.com/hashicorp/terraform-plugin-framework v1.3.2
 	github.com/hashicorp/terraform-plugin-framework-validators v0.10.0
 	github.com/hashicorp/terraform-plugin-go v0.17.0
+	github.com/hashicorp/terraform-plugin-log v0.9.0
 	github.com/hashicorp/terraform-plugin-testing v1.2.0
 )
 
 require (
-	github.com/Mirantis/mcc v0.0.0-20221202073622-0780228511dd
-	github.com/hashicorp/terraform-plugin-log v0.9.0
+	github.com/Mirantis/mcc v1.5.3
 	github.com/k0sproject/dig v0.2.0
 	github.com/k0sproject/rig v0.10.0
 	github.com/sirupsen/logrus v1.9.0

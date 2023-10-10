@@ -17,7 +17,7 @@ lint:
 	docker run -ti --rm -v "$(CURDIR):/data" -w "/data" golangci/golangci-lint:latest golangci-lint run
 
 # Local install of the plugin
+# @SEE README.md on how to use the locally built plugin
 .PHONY: local
 local:
 	GORELEASER_CURRENT_TAG="$(LOCAL_TAG)" goreleaser build --clean --single-target --skip-validate
-	# @SEE README.md on how to use the locally built plugin
