@@ -8,6 +8,9 @@ product configuration, which is used to configure launchpad to run. Launchpad
 executions are implemented using golang imports, not through shell commands, so
 no local environment constraints exist, other than terraform requirements.
 
+This provider is developed internally, and comes with no warranty. Use it 
+at your own risk.
+
 ## Requirements
 
 - [Terraform](https://www.terraform.io/downloads.html) >= 1.4
