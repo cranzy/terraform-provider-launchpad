@@ -271,5 +271,3 @@ Optional:
 - `install_flags` (List of String) Optional MSR bootstrapper install flags
 - `replica_ids` (String) MSR replica IDs as a string
 - `upgrade_flags` (List of String) Optional MSR bootstrapper update flags
-
-

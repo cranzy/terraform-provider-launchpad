@@ -62,7 +62,7 @@ func (r *LaunchpadConfigResource) Create(ctx context.Context, req resource.Creat
 	} else if r.testingMode {
 		resp.Diagnostics.AddWarning("testing mode warning", "launchpad config resource handler is in testing mode, no installation will be run.")
 
-	} else if err := mke.Apply(false, false, 10); err != nil {
+	} else if err := mke.Apply(false, false, 10, false); err != nil {
 		ccout, _ := yaml.Marshal(mke.ClusterConfig)
 		resp.Diagnostics.AddError(
 			"Launchpad apply failed",
@@ -95,7 +95,7 @@ func (r *LaunchpadConfigResource) Update(ctx context.Context, req resource.Updat
 	} else if r.testingMode {
 		resp.Diagnostics.AddWarning("testing mode warning", "launchpad config resource handler is in testing mode, no update will be run.")
 
-	} else if err := mke.Apply(false, false, 10); err != nil {
+	} else if err := mke.Apply(false, false, 10, false); err != nil {
 		ccout, _ := yaml.Marshal(mke.ClusterConfig)
 		resp.Diagnostics.AddError(
 			"Launchpad apply failed",

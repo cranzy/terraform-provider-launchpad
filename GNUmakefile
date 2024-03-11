@@ -20,4 +20,4 @@ lint:
 # @SEE README.md on how to use the locally built plugin
 .PHONY: local
 local:
-	GORELEASER_CURRENT_TAG="$(LOCAL_TAG)" goreleaser build --clean --single-target --skip-validate
+	GORELEASER_CURRENT_TAG="$(LOCAL_TAG)" goreleaser build --clean --single-target --skip=validate
